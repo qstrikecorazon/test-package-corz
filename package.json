@@ -20,5 +20,8 @@
     "bugs": {
         "url": "https://github.com/corazon/test-package-corz/issues"
     },
-    "homepage": "https://github.com/corazon/test-package-corz#readme"
+    "homepage": "https://github.com/corazon/test-package-corz#readme",
+    "dependencies": {
+        "moment": "^2.29.4"
+    }
 }
