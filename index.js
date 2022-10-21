@@ -1,5 +1,5 @@
 function greet(msg) {
-    console.msg(msg);
+    console.log(msg);
 }
 
 export default greet;
