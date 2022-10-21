@@ -1,0 +1,20 @@
+{
+  "name": "test-package-corz",
+  "version": "0.0.1",
+  "description": "learning how to deploy a package.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corazon/test-package-corz.git"
+  },
+  "author": "qstrikecorazon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corazon/test-package-corz/issues"
+  },
+  "homepage": "https://github.com/corazon/test-package-corz#readme"
+}
