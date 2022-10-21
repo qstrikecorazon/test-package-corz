@@ -1,5 +1,3 @@
-function greet(msg) {
-    console.log(msg);
-}
+import greet from './features/greet.js';
 
-export default greet;
+export { greet };
