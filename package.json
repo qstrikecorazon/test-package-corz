@@ -6,7 +6,7 @@
     "main": "index.js",
     "exports": {
         ".": "./index.js",
-        "./features/*": "./features/*"
+        "./features/*": "./features/*.js"
     },
     "type": "module",
     "scripts": {
