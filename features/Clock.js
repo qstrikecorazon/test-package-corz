@@ -1,16 +1,16 @@
-var Clock = /** @class */ (function () {
-    function Clock() {
+var default_1 = /** @class */ (function () {
+    function default_1() {
         this.clock = this.start();
     }
-    Clock.prototype.start = function () {
+    default_1.prototype.start = function () {
         return setInterval(function () {
             console.clear();
             console.log(new Date());
         }, 1000);
     };
-    Clock.prototype.stop = function () {
+    default_1.prototype.stop = function () {
         return clearInterval(this.clock);
     };
-    return Clock;
+    return default_1;
 }());
-export default Clock;
+export default default_1;

@@ -1,4 +1,4 @@
-class Clock {
+export default class {
     private clock: number;
     constructor() {
         this.clock = this.start();
@@ -15,5 +15,3 @@ class Clock {
         return clearInterval(this.clock);
     }
 }
-
-export default Clock;
