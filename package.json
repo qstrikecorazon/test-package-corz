@@ -10,6 +10,7 @@
     },
     "type": "module",
     "scripts": {
+        "code-test": "tsc && node test.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -24,5 +25,8 @@
     "homepage": "https://github.com/corazon/test-package-corz#readme",
     "dependencies": {
         "moment": "^2.29.4"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.4"
     }
 }
